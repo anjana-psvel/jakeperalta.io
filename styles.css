@@ -1,0 +1,115 @@
+h1{
+    color:white;
+    //background-color: antiquewhite;
+    font-size: 64px;
+    margin-left: 20px;
+    padding: 100px;
+}
+body {
+    background-color: black;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+}
+.landing{
+    dislpay: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height: 80vh;
+    
+}
+.about p{
+    margin-left:200px;
+    margin-right: 200px;
+    line-height: 200% ;
+    margin-bottom: 20px;
+
+}
+h2{
+    color:#2c62e0;
+    padding : 50px;
+
+
+}
+.myProjects{
+    display:flex;
+    border-width: 33px;
+    border-spacing: 3%;
+}
+.Project{
+    border-radius: 10px;
+    margin:2.5%;
+    list-style: none;
+    width: 33%;
+    transition: 0.5s;
+    background-color:#2c62e0;
+    height:350px;
+}
+.Project:hover{
+    background-color:darkorange;
+    height: 350px;
+    transform: translate3d(0,-1px,0) scale(1.03);
+
+}
+
+.ProjectCover{
+    padding : 4rem;
+    margin-top: 8rem;
+    line-height: 2;
+    text-align: center;
+
+}
+
+.ProjectCover h2{
+    font-size: 2rem;
+    color: #537FE7;
+}
+
+
+.landing{
+    align-items: center;
+}
+
+.skills{
+    list-style:inside;
+    align-items: center;
+    line-height: 200% ;
+
+
+}
+
+.aboutFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.socials{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5%;
+    display:flex;
+    border-width: 30px;
+    border-spacing: 3%;
+  }
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    border-radius:10px;
+    border-color: darkorange;
+  }
+
+
+  
+
+  
